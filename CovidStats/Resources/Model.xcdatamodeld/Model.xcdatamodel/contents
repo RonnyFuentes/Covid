@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CountryStats" representedClassName=".CountryStats" syncable="YES">
+        <attribute name="countryCode" attributeType="String"/>
+        <attribute name="countryName" attributeType="String"/>
+        <attribute name="isWatched" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="newCasesConfirmed" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="newDeaths" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="newRecovered" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalCasesConfirmed" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalDeaths" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalRecovered" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="CountryStats" positionX="-63" positionY="-18" width="128" height="178"/>
+    </elements>
+</model>
